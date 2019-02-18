@@ -1,12 +1,14 @@
 
+# parkomat.tiny
+
 
 ### What is it?
 
-parkomat.tiny forked from github.com/parkomat/parkomat, ONLY Web + WebDav server.
+parkomat.tiny forked from [github.com/parkomat/parkomat](https://github.com/parkomat/parkomat), ONLY Web + WebDav server.
 
 ### Features
 
-**ONLY Web and WebDav server. NO DNS, NO HTTPS/SSL/TLS.**
+**ONLY Web and WebDav server. NO DNS, NO HTTPS/SSL/TLS, NO domains**
 
 ### Installation
 
@@ -57,7 +59,7 @@ You can also use following environment variables, that will overwrite passed arg
 
 ### Web server directory structure
 
-You `./web` path could look like this:
+You `./www` path could look like this:
 
 ```
 .
@@ -68,4 +70,3 @@ You `./web` path could look like this:
 ```
 
 All your html and other files go to `public_html` directory.
-
