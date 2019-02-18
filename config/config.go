@@ -9,7 +9,6 @@ import (
 type Web struct {
 	IP        string `json:"ip" toml:"ip"`
 	Port      int    `json:"port" toml:"port"`
-	SSLPort   int    `json:"ssl_port" toml:"ssl_port"`
 	Path      string `json:"path" toml:"path"`
 	AccessLog string `json:"access_log" toml:"access_log"`
 	ErrorLog  string `json:"error_log" toml:"error_log"`
