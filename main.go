@@ -13,7 +13,7 @@ import (
 func main() {
 	log.WithFields(log.Fields{
 		"service": "main",
-	}).Info("Parkomat (parkomat.io)")
+	}).Info("Parkomat.tiny (github.com/xixitalk/parkomat)")
 
 	configFile := flag.String("config_file", "parkomat.toml", "Configuration File")
 	flag.Parse()

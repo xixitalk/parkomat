@@ -42,7 +42,7 @@ path = "./www"
 enabled = true
 username = "hello"
 password = "world"
-# your share will be under http://example.domain/dav/
+# your share will be under http://example.domain/webdav/
 mount = "/webdav/"
 
 ```
